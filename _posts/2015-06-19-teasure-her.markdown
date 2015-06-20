@@ -2,7 +2,7 @@
 layout: post
 title:  "Thik jeno love story"
 date:   2015-06-19 02:43:44
-categories:love
+categories: love
 ---
 
 ##tell her.##
