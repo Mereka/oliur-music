@@ -1,2 +1,11 @@
-markdown: redcarpet
+# Site settings
+title: Oliur's | Music
+email: zabir.akta@gmail.comr
+description: > # # the subpath of your site, e.g. /blog/
+url: "http://mereka.github.io/oliur-music" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
 baseurl: /oliur-music
