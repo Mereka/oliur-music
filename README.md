@@ -1,25 +1,63 @@
-# HPSTR Jekyll Theme
+# Jekyll Incorporated
+Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing [my first two themes](https://mademistakes.com/work/jekyll-themes/), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory.
+## Installation & Usage
+    bundle install
+    jekyll serve --watch
 
-## What HPSTR brings to the table:
+_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
+    
+## Configuration
+Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
 
-* Modern and minimal design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* [Available in Spanish](https://github.com/cruznick/hpstr-jekyll-theme/tree/es). Thanks [@cruznick](https://github.com/cruznick)!
+```
+jekyll-incorporated/
+├── _config.yml
+├── _assets/
+    ├── stylesheets/
+        ├── main.scss
+```
 
-![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
+_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
----
+    
+## Publish to Github Pages
+1. Add your domain to _CNAME_
+2. Edit your repo address at _Rakefile_
+    
+Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
+``` 
+rake site:publish
+```
 
-## Getting Started
+## Usage examples
 
-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+* Adroll Engineering http://tech.adroll.com/
+* Brace.io blog http://blog.brace.io/
+* Spark.io blog http://blog.spark.io/
+* Department of Better Technology http://blog.dobt.co/
 
-To learn how to install and use this theme check out the [Setup Guide](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) for more information.
+## Authors
+
+Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
+
+**Karri Saarinen**
+
++ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
++ [http://github.com/ksaa](http://github.com/ksaa)
+
+**Jori Lallo**
+
++ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
++ [http://github.com/jorde](http://github.com/jorilallo)
+
+## Todo:
+
++ Documentation
++ Less config files
++ Better deploy scripts
+
+## Copyright and license
+
+Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
+
