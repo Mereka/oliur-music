@@ -1,39 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-<meta name="charset" content="utf-8" />
-<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="[Oliur-music] - [2015]" />
-<meta name="keywords" content="oliur, music, jekyll" />
-<meta name="description" content="music, music, oliur, oliur, rahman, music of oliur, best music, oliur music, jekyll, jekyll tutorial, download"/>
-        <title>Oliur | music</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/css/salon.css"/>
-        
-    </head>
-    <body>
-    <div class="a">
-    </div>
-      <h2>OWN-BEATS</h2>
-      <h3>Established 2015</h3>
-      <nav>
-    <ul>
-                <li><a href="#" class="active">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">MUSIC</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-    </nav>
-				
-                <ul class="d">
-                    <li><a href="#">CONCERTS.</a></li>
-                    <li><a href="#">BLOGS.</a></li>
-                    <li><a href="#">ALBUMS.</a></li>
-                    <li><a href="#">TOURS.</a></li>
-                    <li><a href="#">FANS.</a></li>
-                                    </ul>
-<div class="f">
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <p>{% include header.html %}    </p>
+    <div class="page-content">
+      <div class="wrapper">{{ content }}
+      </div>
 </div>
-              
-                     
-    </body>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
