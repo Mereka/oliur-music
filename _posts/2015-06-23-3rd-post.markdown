@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Ami Zabir!"
-date:   2015-06-22 08:43:44
-categories: jekyll update
----
-
-**Zabir** eta amar post . aaj e creat korlam... 
